@@ -1,7 +1,7 @@
 # Copyright (c) Xingetouzi Development Team.
 # Distributed under the terms of the Modified BSD License.
 
-FROM daocloud.io/xingetouzi:base-notebook
+FROM daocloud.io/xingetouzi/base-notebook
 
 # Install Python 3 packages
 RUN conda install --quiet --yes \
