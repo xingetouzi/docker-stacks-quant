@@ -17,4 +17,4 @@ COPY ./requirements.txt /tmp/requirements.txt
 
 ARG PIP_EXTRA
 
-RUN pip install --no-cache ${PIP_EXTRA} -r /tmp/requirements.txt
+RUN pip install --no-cache ${PIP_EXTRA} -r /tmp/requirements.txt && rm /tmp/requirements.txt
