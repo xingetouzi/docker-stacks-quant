@@ -6,6 +6,7 @@ FROM daocloud.io/xingetouzi/base-notebook
 # Install Python 3 packages
 RUN conda install --quiet --yes \
     'python-snappy' \
+    'h5py' \
     'lxml' &&\
     conda clean -tipsy && \
     npm cache clean && \
