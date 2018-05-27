@@ -6,4 +6,4 @@ git+https://github.com/xingetouzi/rqalpha-mod-shipane-wrapper.git
 git+https://github.com/xingetouzi/rqalpha-mod-optimization.git
 git+http://gitlab.fxdayu.com:8888/xingetouzi/rqalpha-mod-trading-monitor.git
 git+http://gitlab.fxdayu.com:8888/xingetouzi/rqalpha-mod-authority.git
-git+https://github.com/xingetouzi/jaqs-fxdayu@be90d81543464812f009da4f24f70a60052c7c15
+git+https://github.com/xingetouzi/jaqs-fxdayu@706b8bbd54350b72d53725de7b9b941abd360d18
