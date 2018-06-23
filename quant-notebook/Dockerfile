@@ -7,7 +7,7 @@ FROM daocloud.io/xingetouzi/base-notebook
 RUN conda install --quiet --yes \
     'python-snappy' \
     'h5py' \
-    'pytable' \
+    'pytables' \
     'lxml' &&\
     conda clean -tipsy && \
     npm cache clean && \
