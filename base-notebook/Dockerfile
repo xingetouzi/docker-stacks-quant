@@ -43,7 +43,7 @@ RUN conda install --quiet --yes \
     jupyter nbextension enable --sys-prefix --py ipyparallel  &&\
     jupyter serverextension enable --sys-prefix --py ipyparallel &&\
     pip install --no-cache ${PIP_EXTRA} TA-lib &&\
-    npm cache clean && \
+    npm cache clean --force && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 
