@@ -6,7 +6,7 @@ FROM jupyter/scipy-notebook
 USER root
 
 # update apt repo
-RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && apt-get update
+RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && apt-get update && apt-get install tzdata && apt-get clean
 
 # TA-lib dependencies
 RUN wget -O ta-lib.tar.gz http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
