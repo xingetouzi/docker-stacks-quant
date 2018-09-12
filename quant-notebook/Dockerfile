@@ -10,7 +10,7 @@ RUN conda install --quiet --yes \
     'pytables' \
     'lxml' &&\
     conda clean -tipsy && \
-    npm cache clean && \
+    npm cache clean --force && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 
