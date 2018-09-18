@@ -1,6 +1,6 @@
 git+https://github.com/quantopian/pyfolio.git
 git+https://github.com/xingetouzi/alphalens.git
-git+https://github.com/xingetouzi/rqalpha-mod-fxdayu-source.git
+git+https://github.com/xingetouzi/rqalpha-mod-fxdayu-source.git@1595df9cc409c3bc8bad2bfcfda5b37d8d42739b
 git+https://github.com/xingetouzi/rqalpha-mod-shipane-wrapper.git
 git+https://github.com/xingetouzi/rqalpha-mod-optimization.git
 git+http://gitlab.fxdayu.com:8888/xingetouzi/rqalpha-mod-trading-monitor.git
